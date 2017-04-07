@@ -1,0 +1,52 @@
+.layout-holy-grail {
+  box-sizing: border-box;
+  display: flex;
+  min-height: 99vh;
+  flex-direction: row;
+}
+
+.layout-holy-grail aside {
+  flex: 0 0 12em;
+  box-sizing: border-box;
+
+}
+
+.layout-holy-grail aside.primary {
+  order: 1;
+  box-sizing: border-box;
+
+}
+
+.layout-holy-grail main {
+  background: red;
+  box-sizing: border-box;
+
+  flex: 1;
+  order: 2;
+}
+
+.layout-holy-grail aside.secondary {
+  box-sizing: border-box;
+
+  order: 3;
+}
+
+nav {
+  background: yellow;
+}
+
+aside {
+  background: blue;
+}
+
+header {
+  background: green;
+  box-sizing: border-box;
+
+}
+
+footer {
+  background: green;
+  box-sizing: border-box;
+
+}
